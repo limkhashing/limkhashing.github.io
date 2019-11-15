@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/limkhashing/limkhashing.github.io/workflows/GithubPages/badge.svg)](https://github.com/limkhashing/limkhashing.github.io/actions)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
