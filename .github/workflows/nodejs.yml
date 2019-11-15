@@ -39,6 +39,15 @@ jobs:
     - name: Build
       run: hugo --minify
 
+    - name: Build
+      run: |
+        buildcommand
+        touch ./public/.nojekyll
+    
+    - run: npm ci
+
+    - run: npm run build
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
