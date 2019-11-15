@@ -39,4 +39,3 @@ jobs:
         BRANCH: development
         FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
-        
