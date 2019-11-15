@@ -3,7 +3,7 @@ name: React Node CI
 on:
   push:
     branches:
-      - master 
+      - development
         
 jobs:
   install-and-test:
@@ -35,8 +35,8 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: gh-pages # The branch the action should deploy from.
-        BRANCH: master
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: development
         FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
         
