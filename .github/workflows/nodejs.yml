@@ -36,6 +36,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
-        BRANCH: development
+        BRANCH: master
         FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
