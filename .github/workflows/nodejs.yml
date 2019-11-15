@@ -38,11 +38,6 @@ jobs:
 
     - name: Build
       run: hugo --minify
-
-    - name: Build
-      run: |
-        buildcommand
-        touch ./public/.nojekyll
     
     - run: npm ci
 
