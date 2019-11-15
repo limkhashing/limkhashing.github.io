@@ -32,7 +32,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+      uses: limkhashing/limkhashing.github.io@master
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
