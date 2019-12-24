@@ -29,10 +29,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v1
       
       # The build script the action should run prior to deploying.
     - name: Build Production
+      env:
+        CI: true
       run: |
         npm install 
         npm run-script build 
