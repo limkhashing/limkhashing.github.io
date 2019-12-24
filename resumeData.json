@@ -1,0 +1,142 @@
+{
+  "main": {
+    "name":"Lim Kha Shing",
+    "occupation":"Software Engineer",
+    "description":"who is highly driven and well-versed in RESTful and Cloud technologies",
+    "image":"profilepic.png",
+    "bio": "Hello! My name is Lim Kha Shing, a Software Engineer that have 2+ years experiences in developing Android app with Java and Kotlin. I also have 1+ years experiences of building and deploying AI models, including dealing with large and complex datasets (> 10k rows, 50+ columns) with Python and R frameworks and libraries.",
+    "contactmessage":"",
+    "email": "kslim5703@gmail.com",
+    "phone": "+6016-5935703",
+    "address":{
+      "city":"Malaysia"
+    },
+    "website": "http://limkhashing.github.io/",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/limkhashing",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/AhShing25",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/lim-kha-shing/",
+        "className":"fa fa-linkedin"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":" ",
+    "education":[
+      {
+        "school":"Quest International University",
+        "degree":"Bachelor of Information Technology (Hons) (CGPA 3.59)",
+        "graduated":"November 2019"
+      },
+      {
+        "school":"Quest International University",
+        "degree":"Foundation in Business (CGPA 3.62)",
+        "graduated":"January 2016"
+      },
+      {
+        "school":"SMJK Poi Lam",
+        "degree":"Sijil Pelajaran Malaysia (SPM) (5 Credits)",
+        "graduated":"December 2013"
+      }
+    ],
+    "work":[
+      {
+        "company":"Fave Asia Sdn Bhd (Fave Malaysia HQ)",
+        "title":"Software Engineer (Mobile – Android)",
+        "years":"September 2019 - Present",
+        "description":"In Fave, I monitor the performance of the live apps and continuously improve them on both code and experience level."
+      },
+      {
+        "company":"Petroliam Nasional Berhad (PETRONAS)",
+        "title":"Data Integrator (Internship)",
+        "years":"April 2019 - July 2019",
+        "description":"In PETRONAS, I mostly responsible for developing and maintaining backend AWS codes that help to validate the data coming from various Oil & Gas data sources."
+      },
+      {
+        "company":"San Min Independent Secondary School",
+        "title":"Teaching Assistant",
+        "years":"April 2018 - March 2019",
+        "description":"I worked as a IT Teaching Assistant that in charge of teaching and bringing secondary school students (Age 18) to \"The World of Programming\""
+      }
+    ],
+    "skills":[
+      {
+        "name": "Python, Java, Kotlin, Javascript (Node.js), SQL, R, C# / .NET, PHP"
+      },
+      {
+        "name": "Android Development with Java, Kotlin and 3rd party libraries (Coroutine, Retrofit, Dagger)"
+      },
+      {
+        "name": "Machine Learning Models Development with Sci-Kit Learn, Keras, Pandas, PySpark / Apache-Spark, OpenCV and Caret"
+      },
+      {
+        "name": "Web Application / API Development with Node.js Express and Python Flask framework"
+      },
+      {
+        "name": "Unit Testing, Code Coverage and Analysis with PyTest, Codecov, Codacy and LGTM"
+      },
+      {
+        "name": "CICD pipeline with Github Actions, Travis-ci, Heroku and Bitrise"
+      },
+      {
+        "name": "Git, Github, Google Cloud Platform, Firebase, Amazon Web Services, Heroku, Fabric, Sentry, JIRA"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"💳 Research Project in Credit Card Fraud Detection",
+        "category":"Aims to study and perform extensive ML experiments in detecting fraudulent transactions",
+        "image":"credit-card-fraud-detection.jpg",
+        "url":"https://github.com/limkhashing/Credit-Card-Fraud-Detection"
+      },
+      {
+        "title":"💻 ID Document Image Classification",
+        "category":"Using Keras and OCR to classify Identity Card, Driving License and Passport",
+        "image":"id-document-image-classification.jpg",
+        "url":"https://github.com/limkhashing/ID-Document-Image-Classification"
+      },
+      {
+        "title":"📱 One2Many Speech Translator",
+        "category":"Enhancement for translator by sending translation results to multiple smart devices.",
+        "image":"one2many.jpg",
+        "url":"https://github.com/limkhashing/One2Many"
+      },
+      {
+        "title":"📱 QIUP Programme Enquiry",
+        "category":"A mobile app that aims to help students in identifying which courses of Quest International University is eligible to enrol.",
+        "image":"qiup-programme-enquiry.jpg",
+        "url":"https://github.com/limkhashing/QIUP-Programmes-Enquiry-Application"
+      },
+      {
+        "title":"📷 Parking Occupancies Detection with CCTV Cameras",
+        "category":"Detecting vacant parking slots and extract car plat numbers",
+        "image":"spotpark.png",
+        "url":"https://github.com/limkhashing/Parking-Occupancies-Detection"
+      }
+    ]
+  }, 
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
