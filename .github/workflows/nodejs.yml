@@ -33,8 +33,6 @@ jobs:
       
       # The build script the action should run prior to deploying.
     - name: Build Production
-      env:
-        CI: true
       run: |
         npm install 
         npm run-script build 
