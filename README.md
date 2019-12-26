@@ -1,4 +1,4 @@
-## My Resume Website
+## Resume Website
 
 [![Actions Status](https://github.com/limkhashing/limkhashing.github.io/workflows/Github%20Pages/badge.svg)](https://github.com/limkhashing/limkhashing.github.io/actions)
 
