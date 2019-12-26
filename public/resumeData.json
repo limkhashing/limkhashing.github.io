@@ -83,10 +83,10 @@
         "name": "Web Application / API Development with Node.js Express and Python Flask framework"
       },
       {
-        "name": "Unit Testing, Code Coverage and Analysis with PyTest, Codecov, Codacy and LGTM"
+        "name": "Developing code for Unit Testing, Code Coverage and Analysis with PyTest, Codecov, Codacy and LGTM"
       },
       {
-        "name": "CICD pipeline with Github Actions, Travis-ci, Heroku and Bitrise"
+        "name": "Building CICD pipeline with Github Actions, Travis-ci, Heroku and Bitrise"
       },
       {
         "name": "Git, Github, Google Cloud Platform, Firebase, Amazon Web Services, Heroku, Fabric, Sentry, JIRA"
