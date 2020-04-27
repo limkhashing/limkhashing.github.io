@@ -36,6 +36,7 @@ jobs:
     - name: Build Production
       run: |
         npm install 
+        yarn upgrade
         npm run-script build 
        
     - name: Deploy to Github Pages
