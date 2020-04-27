@@ -28,7 +28,7 @@ class About extends Component {
             
             <div className="row">
                <div className="nine columns">
-                  <h2>Don't hesitate to contact me!</h2>
+                  <h2>Feel free to hit me up!</h2>
                   {/* <p className="address"> */}
 						   {/* <span>{name}</span><br /> */}
 						   {/* <span>{street}<br />
