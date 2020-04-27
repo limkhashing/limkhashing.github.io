@@ -22,8 +22,6 @@ jobs:
         run: |
           yarn
           yarn test
-        env:
-          CI: true
 
   build-and-deploy:
     runs-on: ubuntu-latest
