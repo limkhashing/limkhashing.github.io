@@ -71,25 +71,30 @@
     ],
     "skills":[
       {
-        "name": "Python, Java, Kotlin, Javascript (Node.js), SQL, R, C# / .NET, PHP"
+        "name": "Python, Java, Kotlin, Node.js, SQL"
       },
       {
-        "name": "Android Development with Java, Kotlin and 3rd party libraries (Coroutine, Retrofit, Dagger)"
+        "name": "Android Development",
+        "description": "with Java or Kotlin, and with 3rd party libraries"
       },
       {
-        "name": "Machine Learning Models Development with Sci-Kit Learn, Keras, Pandas, PySpark / Apache-Spark, OpenCV and Caret"
+        "name": "Developing ML models",
+        "description": "with Sci-Kit Learn, Keras, Pandas, and OpenCV "
       },
       {
-        "name": "Web Application / API Development with Node.js Express and Python Flask framework"
+        "name": "Basic Web Application and API Development",
+        "description": "with Node.js Express and Python Flask framework"
       },
       {
-        "name": "Developing code for Unit Testing, Code Coverage and Analysis with PyTest, Codecov, Codacy and LGTM"
+        "name": "Writing Unit Tests and implement Code Coverages",
+        "description": "with Mockk, PyTest and Codecov"
       },
       {
-        "name": "Building CICD pipeline with Github Actions, Travis-ci, Heroku and Bitrise"
+        "name": "Building CI/CD pipeline",
+        "description": "with Github Actions, Travis-ci, Heroku and Bitrise"
       },
       {
-        "name": "Git, Github, Google Cloud Platform, Firebase, Amazon Web Services, Heroku, Fabric, Sentry, JIRA"
+        "name": "Git, Github, Google Cloud Platform, Firebase, Amazon Web Services, Heroku, Sentry, Datadog, JIRA"
       }
     ]
   },
