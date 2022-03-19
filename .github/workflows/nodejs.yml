@@ -28,23 +28,22 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     # using @master isn't sufficient as it will end up using an incompatible version number
+    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
       
       # The build script the action should run prior to deploying.
-    - name: Build Production
+    - name: Build Production React.js page 🔧
       run: |
         npm install 
         npm run-script build 
       env:
         CI: false
        
-    - name: Deploy to Github Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Deploy to Github Pages 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.2.5
       with:
-        ACCESS_TOKEN: ${{ secrets.GH_PAT }}
-        BASE_BRANCH: development # The branch the action should deploy from.
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: build # The folder the action should deploy.
-        CLEAN: true
+        branch: master # The branch the action should deploy to.
+        folder: build # The folder the action should deploy.
+        clean: true
