@@ -290,16 +290,22 @@ ul#nav li.current a { color: #4fc3f7; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
    list-style: none;
 }
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+.bars li b {
+	font: 18px/24px 'opensans-bold', sans-serif;
    color: #313131;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+   top: -10px;
+}
+#resume .description {
+   font: 18px/24px 'opensans', sans-serif;
+   color: #313131;
+   letter-spacing: 1px;
+	font-weight: normal;
+   position: relative;
 }
 .bar-expand {
    position: absolute;
