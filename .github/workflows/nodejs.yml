@@ -8,9 +8,12 @@ on:
 jobs:
   setup-node:
     runs-on: ubuntu-latest
+    environment: github-pages
 
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout 🛎️
+        uses: actions/checkout@master
+
       - name: Use Node.js 16
         uses: actions/setup-node@master
         with:
@@ -18,19 +21,16 @@ jobs:
 
   build-and-deploy:
     runs-on: ubuntu-latest
-    # using @master isn't sufficient as it will end up using an incompatible version number
+    environment: github-pages
+    needs:
+      - setup-node
     
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
-      
       # The build script the action should run prior to deploying.
     - name: Build Production React.js page 🔧
       run: |
         npm install 
         npm run-script build 
-      env:
-        CI: false
        
     - name: Deploy to Github Pages 🚀
       uses: JamesIves/github-pages-deploy-action@v4.4.1
