@@ -6,26 +6,19 @@ on:
       - development
         
 jobs:
-  setup-node:
-    runs-on: ubuntu-latest
-    environment: github-pages
-
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@master
-
-      - name: Use Node.js 16
-        uses: actions/setup-node@master
-        with:
-          node-version: 16
-
   build-and-deploy:
     runs-on: ubuntu-latest
     environment: github-pages
-    needs:
-      - setup-node
     
     steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+      
+    - name: Use Node.js 16
+      uses: actions/setup-node@master
+      with:
+        node-version: 16
+
       # The build script the action should run prior to deploying.
     - name: Build Production React.js page 🔧
       run: |
