@@ -4,10 +4,10 @@
     "occupation":"Software Engineer",
     "description":"",
     "image":"profilepic.png",
-    "bio": "Hello! I'm a Senior Software Engineer who has 3+ years experience in building native Android apps. I’m well-acquainted with Modern Android Development from Kotlin, Coroutines, DataStore to ViewModel architecture. I’m also comfortable with data-related tasks such as pre-processing and visualisation. Have experience in building a basic Machine Learning model from freelance projects.",
+    "bio": "Hello! I'm Kha Shing, a Software Engineer with 3+ years of experience building native Android apps. Currently in the Modern Android Development field, and learning Python on Data Engineering and Machine Learning during my free time. I have some experience in building a basic Machine Learning model from part-time projects too!",
     "contactmessage":"",
     "email": "kslim5703@gmail.com",
-    "phone": "+6016-5935703",
+    "phone": "+6016-593 5703",
     "address":{
       "city":"Malaysia"
     },
@@ -17,11 +17,6 @@
         "name":"github",
         "url":"https://github.com/limkhashing",
         "className":"fa fa-github"
-      },
-      {
-        "name":"facebook",
-        "url":"https://www.facebook.com/AhShing25",
-        "className":"fa fa-facebook"
       },
       {
         "name":"linkedin",
@@ -55,6 +50,12 @@
         "title":"Software Engineer (Mobile – Android)",
         "years":"September 2019 - Present",
         "description":"In Fave, I monitor the performance of the live apps and continuously improve them on code and experience level."
+      },
+      {
+        "company":"Cardzone Sdn Bhd",
+        "title":"Freelance Python Developer",
+        "years":"July 2018 - November 2020",
+        "description":"Helping Cardzone Sdn Bhd to implement ML models to automate their business processes."
       },
       {
         "company":"Petroliam Nasional Berhad (PETRONAS)",

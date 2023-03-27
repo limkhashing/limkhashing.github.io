@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: rgb(200, 200, 200);
+   color: #fff;
    margin: 0 auto;
    width: 70%;
 }
@@ -208,7 +208,6 @@ ul#nav li.current a { color: #4fc3f7; }
 #about .profile-pic {
    position: relative;
    width: auto;
-   height: 215px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -837,7 +836,6 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
    width: 26%;
 }
 #contact input,
